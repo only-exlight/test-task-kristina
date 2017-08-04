@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    
+}
+
+#exemple {
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#result {
+    display: none;
+}
+
+#sprite {
+    display: flex;
+    justify-content: center;
+}
+
+#inputs {
+    display: flex;
+}
+
+#input-a-block, #input-b-block span {
+    font-size: 36px;
+}
+
+.inp {
+    font-size: 36px;
+    border-radius: 3px;
+    width: 42px;
+}
+#input-a-block, #input-b-block {
+    position: relative;
+}
