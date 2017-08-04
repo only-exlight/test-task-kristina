@@ -21,8 +21,8 @@ window.onload = ()=> {
     //Вывод в соответсвующие блоки
     aBox.innerText = a; bBox.innerText = b;
     //Задание отступов для полей ввода a,b
-    inputAblock.style.left = radiusCalculate(a) + 12 + 'px';
-    inputBblock.style.left = radiusCalculate(b) + radiusCalculate(a) * 2 - 36 + 'px';
+    inputAblock.style.left = radiusCalculate(a) + 12.5 + 'px'; //12.5 - половина длины input
+    inputBblock.style.left = radiusCalculate(b) + radiusCalculate(a) * 2 - 37.5 + 'px';
     //Событие окончания загрузки изображения
     img.onload = () => {
         ctx.drawImage(img, 0, 80); //Отрисовка изображения
