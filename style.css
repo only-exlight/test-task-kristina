@@ -1,16 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#container {
-    
-}
-
 #exemple {
+    /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    flex - горизонтальное выравнивание элементов*/
+    display: flex; 
+    justify-content: center;
     padding: 40px;
     text-align: center;
     font-size: 36px;
+}
+
+#exemple div {
+    width: 45px;
+    border-radius: 3px;
 }
 
 #result {
@@ -26,8 +26,12 @@
     display: flex;
 }
 
-#input-a-block, #input-b-block span {
+#input-a-block, #input-b-block {
     font-size: 36px;
+}
+
+#input-a-block div,#input-b-block div {
+    text-align: center;
 }
 
 .inp {
@@ -35,6 +39,11 @@
     border-radius: 3px;
     width: 42px;
 }
+
 #input-a-block, #input-b-block {
     position: relative;
+}
+
+#input-a-block div, #input-b-block div {
+    width: 45px;
 }
